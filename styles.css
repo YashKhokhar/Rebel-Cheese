@@ -1,4 +1,18 @@
 /* ================ BASE STYLES ================ */
+
+/* Add font-display for Google Fonts */
+@font-face {
+  font-family: 'Playfair Display';
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+}
+
 :root {
     --primary-color: #8B4513;
     --secondary-color: #F5DEB3;
